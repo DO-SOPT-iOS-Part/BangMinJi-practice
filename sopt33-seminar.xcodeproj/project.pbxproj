@@ -13,6 +13,8 @@
 		E53492E22AD11F2C002A1C30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53492E02AD11F2C002A1C30 /* Main.storyboard */; };
 		E53492E42AD11F31002A1C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E53492E32AD11F31002A1C30 /* Assets.xcassets */; };
 		E53492E72AD11F31002A1C30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53492E52AD11F31002A1C30 /* LaunchScreen.storyboard */; };
+		E5E8D8112AD135F700B27302 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E8D8102AD135F700B27302 /* ResultViewController.swift */; };
+		E5EB12722AD1424700EB4E6B /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EB12712AD1424700EB4E6B /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E53492E32AD11F31002A1C30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E53492E62AD11F31002A1C30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E53492E82AD11F31002A1C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5E8D8102AD135F700B27302 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		E5EB12712AD1424700EB4E6B /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				E53492E32AD11F31002A1C30 /* Assets.xcassets */,
 				E53492E52AD11F31002A1C30 /* LaunchScreen.storyboard */,
 				E53492E82AD11F31002A1C30 /* Info.plist */,
+				E5E8D8102AD135F700B27302 /* ResultViewController.swift */,
+				E5EB12712AD1424700EB4E6B /* File.swift */,
 			);
 			path = "sopt33-seminar";
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5EB12722AD1424700EB4E6B /* File.swift in Sources */,
 				E53492DF2AD11F2C002A1C30 /* ViewController.swift in Sources */,
 				E53492DB2AD11F2C002A1C30 /* AppDelegate.swift in Sources */,
 				E53492DD2AD11F2C002A1C30 /* SceneDelegate.swift in Sources */,
+				E5E8D8112AD135F700B27302 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
