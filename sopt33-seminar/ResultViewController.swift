@@ -15,6 +15,9 @@ class ResultViewController: UIViewController {
     
     @IBOutlet weak var idLabel: UILabel!
     @IBOutlet weak var passwordLabel: UILabel!
+
+    @IBOutlet weak var mySwitch: UISwitch!
+
     
     var delegate: GetDataProtocol?
     
@@ -46,7 +49,18 @@ class ResultViewController: UIViewController {
         loginDataCompletion([self.email, self.password])
     }
     
-
+    @IBAction func switchToggle(_ sender: UISwitch) {
+        if sender.isOn {
+                self.view.backgroundColor = UIColor.white
+            } else {
+                self.view.backgroundColor = UIColor.brown
+            }
+    }
+    
+    
+    
+   
+    
     /*
     // MARK: - Navigation
 

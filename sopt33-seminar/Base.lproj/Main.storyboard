@@ -111,21 +111,40 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" preferredStyle="sliding" translatesAutoresizingMaskIntoConstraints="NO" id="506-Ek-gxR">
+                                <rect key="frame" x="155" y="331" width="85" height="31"/>
+                                <color key="onTintColor" systemColor="systemOrangeColor"/>
+                                <connections>
+                                    <action selector="switchToggle:" destination="xNr-TP-p2w" eventType="valueChanged" id="was-dN-fj9"/>
+                                </connections>
+                            </switch>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wHG-WN-Eyc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="506-Ek-gxR" firstAttribute="leading" secondItem="x0T-0s-GYR" secondAttribute="leadingMargin" constant="139" id="1ic-Rr-LYD"/>
+                            <constraint firstItem="506-Ek-gxR" firstAttribute="leading" secondItem="wHG-WN-Eyc" secondAttribute="leading" constant="150" id="1lj-OK-Qd3"/>
                             <constraint firstItem="4kO-3x-bCC" firstAttribute="top" secondItem="wHG-WN-Eyc" secondAttribute="top" constant="150" id="3Hz-3v-pQF"/>
+                            <constraint firstItem="506-Ek-gxR" firstAttribute="top" secondItem="hU8-2B-ydF" secondAttribute="bottom" constant="50" id="5Dq-Lg-MUO"/>
+                            <constraint firstItem="wHG-WN-Eyc" firstAttribute="trailing" secondItem="506-Ek-gxR" secondAttribute="trailing" constant="150" id="5HC-0Z-Hyh"/>
+                            <constraint firstItem="506-Ek-gxR" firstAttribute="leading" secondItem="wHG-WN-Eyc" secondAttribute="leading" constant="100" id="725-wk-xej"/>
                             <constraint firstItem="4kO-3x-bCC" firstAttribute="leading" secondItem="wHG-WN-Eyc" secondAttribute="leading" constant="50" id="FYY-wd-fRb"/>
+                            <constraint firstItem="506-Ek-gxR" firstAttribute="leading" secondItem="wHG-WN-Eyc" secondAttribute="leading" constant="173" id="Lxj-Dp-ryF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="506-Ek-gxR" secondAttribute="trailing" constant="139" id="Mb7-RC-ELa"/>
+                            <constraint firstItem="wHG-WN-Eyc" firstAttribute="trailing" secondItem="506-Ek-gxR" secondAttribute="trailing" constant="173" id="Vwc-pB-orq"/>
                             <constraint firstItem="hU8-2B-ydF" firstAttribute="top" secondItem="4kO-3x-bCC" secondAttribute="bottom" constant="30" id="XnE-I1-x93"/>
+                            <constraint firstItem="506-Ek-gxR" firstAttribute="leading" secondItem="wHG-WN-Eyc" secondAttribute="leading" constant="155" id="ZYG-mC-MFz"/>
+                            <constraint firstItem="wHG-WN-Eyc" firstAttribute="trailing" secondItem="506-Ek-gxR" secondAttribute="trailing" constant="100" id="efe-hn-41g"/>
                             <constraint firstItem="wHG-WN-Eyc" firstAttribute="trailing" secondItem="4kO-3x-bCC" secondAttribute="trailing" constant="50" id="iXl-bM-csE"/>
                             <constraint firstItem="wHG-WN-Eyc" firstAttribute="trailing" secondItem="hU8-2B-ydF" secondAttribute="trailing" constant="50" id="nAi-as-Zjj"/>
+                            <constraint firstItem="wHG-WN-Eyc" firstAttribute="trailing" secondItem="506-Ek-gxR" secondAttribute="trailing" constant="155" id="pZN-qb-teh"/>
                             <constraint firstItem="hU8-2B-ydF" firstAttribute="leading" secondItem="wHG-WN-Eyc" secondAttribute="leading" constant="50" id="v1R-nb-IWK"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="8n4-wn-0EE"/>
                     <connections>
                         <outlet property="idLabel" destination="4kO-3x-bCC" id="TB6-gH-8rg"/>
+                        <outlet property="mySwitch" destination="506-Ek-gxR" id="zjA-qk-cXF"/>
                         <outlet property="passwordLabel" destination="hU8-2B-ydF" id="oHR-xT-AO5"/>
                     </connections>
                 </viewController>
