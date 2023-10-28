@@ -12,6 +12,16 @@
 		E53492DF2AD11F2C002A1C30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53492DE2AD11F2C002A1C30 /* ViewController.swift */; };
 		E53492E42AD11F31002A1C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E53492E32AD11F31002A1C30 /* Assets.xcassets */; };
 		E53492E72AD11F31002A1C30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53492E52AD11F31002A1C30 /* LaunchScreen.storyboard */; };
+		E539E21D2AECCFF900A14AB0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E539E21C2AECCFF900A14AB0 /* SnapKit */; };
+		E539E21F2AECCFF900A14AB0 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = E539E21E2AECCFF900A14AB0 /* SnapKit-Dynamic */; };
+		E539E2222AECD03D00A14AB0 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = E539E2212AECD03D00A14AB0 /* Then */; };
+		E539E2252AECD17C00A14AB0 /* TestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E539E2242AECD17C00A14AB0 /* TestVC.swift */; };
+		E539E2272AECDBC900A14AB0 /* TableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E539E2262AECDBC800A14AB0 /* TableVC.swift */; };
+		E539E2292AECDD0B00A14AB0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E539E2282AECDD0B00A14AB0 /* TableViewCell.swift */; };
+		E539E22B2AECE35D00A14AB0 /* ItemListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E539E22A2AECE35D00A14AB0 /* ItemListData.swift */; };
+		E539E22D2AECEFDD00A14AB0 /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E539E22C2AECEFDD00A14AB0 /* CollectionVC.swift */; };
+		E539E22F2AECF0EF00A14AB0 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E539E22E2AECF0EF00A14AB0 /* CollectionViewCell.swift */; };
+		E539E2312AECF2FC00A14AB0 /* ImageCollectionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E539E2302AECF2FC00A14AB0 /* ImageCollectionData.swift */; };
 		E53ED8772ADA5F5F0069B9D2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53ED8762ADA5F5F0069B9D2 /* SecondViewController.swift */; };
 		E53ED8792ADA6CCC0069B9D2 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53ED8782ADA6CCC0069B9D2 /* ThirdViewController.swift */; };
 		E53ED87B2ADA74FF0069B9D2 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53ED87A2ADA74FF0069B9D2 /* FourthViewController.swift */; };
@@ -28,6 +38,13 @@
 		E53492E32AD11F31002A1C30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E53492E62AD11F31002A1C30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E53492E82AD11F31002A1C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E539E2242AECD17C00A14AB0 /* TestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVC.swift; sourceTree = "<group>"; };
+		E539E2262AECDBC800A14AB0 /* TableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVC.swift; sourceTree = "<group>"; };
+		E539E2282AECDD0B00A14AB0 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E539E22A2AECE35D00A14AB0 /* ItemListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListData.swift; sourceTree = "<group>"; };
+		E539E22C2AECEFDD00A14AB0 /* CollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
+		E539E22E2AECF0EF00A14AB0 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		E539E2302AECF2FC00A14AB0 /* ImageCollectionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionData.swift; sourceTree = "<group>"; };
 		E53ED8762ADA5F5F0069B9D2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		E53ED8782ADA6CCC0069B9D2 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		E53ED87A2ADA74FF0069B9D2 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +58,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E539E21D2AECCFF900A14AB0 /* SnapKit in Frameworks */,
+				E539E2222AECD03D00A14AB0 /* Then in Frameworks */,
+				E539E21F2AECCFF900A14AB0 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +86,7 @@
 		E53492D92AD11F2C002A1C30 /* sopt33-seminar */ = {
 			isa = PBXGroup;
 			children = (
+				E539E2232AECD16300A14AB0 /* third-seminar */,
 				E53492DA2AD11F2C002A1C30 /* AppDelegate.swift */,
 				E53492DC2AD11F2C002A1C30 /* SceneDelegate.swift */,
 				E53ED8762ADA5F5F0069B9D2 /* SecondViewController.swift */,
@@ -80,6 +101,20 @@
 				E53ED87C2ADA81170069B9D2 /* FifthViewController.swift */,
 			);
 			path = "sopt33-seminar";
+			sourceTree = "<group>";
+		};
+		E539E2232AECD16300A14AB0 /* third-seminar */ = {
+			isa = PBXGroup;
+			children = (
+				E539E2242AECD17C00A14AB0 /* TestVC.swift */,
+				E539E2262AECDBC800A14AB0 /* TableVC.swift */,
+				E539E2282AECDD0B00A14AB0 /* TableViewCell.swift */,
+				E539E22A2AECE35D00A14AB0 /* ItemListData.swift */,
+				E539E22C2AECEFDD00A14AB0 /* CollectionVC.swift */,
+				E539E22E2AECF0EF00A14AB0 /* CollectionViewCell.swift */,
+				E539E2302AECF2FC00A14AB0 /* ImageCollectionData.swift */,
+			);
+			path = "third-seminar";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,6 +133,11 @@
 			dependencies = (
 			);
 			name = "sopt33-seminar";
+			packageProductDependencies = (
+				E539E21C2AECCFF900A14AB0 /* SnapKit */,
+				E539E21E2AECCFF900A14AB0 /* SnapKit-Dynamic */,
+				E539E2212AECD03D00A14AB0 /* Then */,
+			);
 			productName = "sopt33-seminar";
 			productReference = E53492D72AD11F2C002A1C30 /* sopt33-seminar.app */;
 			productType = "com.apple.product-type.application";
@@ -126,6 +166,10 @@
 				Base,
 			);
 			mainGroup = E53492CE2AD11F2C002A1C30;
+			packageReferences = (
+				E539E21B2AECCFF900A14AB0 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				E539E2202AECD03D00A14AB0 /* XCRemoteSwiftPackageReference "Then" */,
+			);
 			productRefGroup = E53492D82AD11F2C002A1C30 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -152,13 +196,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E539E2252AECD17C00A14AB0 /* TestVC.swift in Sources */,
 				E53ED87D2ADA81170069B9D2 /* FifthViewController.swift in Sources */,
 				E53ED8772ADA5F5F0069B9D2 /* SecondViewController.swift in Sources */,
 				E5EB12722AD1424700EB4E6B /* File.swift in Sources */,
+				E539E22D2AECEFDD00A14AB0 /* CollectionVC.swift in Sources */,
+				E539E22F2AECF0EF00A14AB0 /* CollectionViewCell.swift in Sources */,
 				E53492DF2AD11F2C002A1C30 /* ViewController.swift in Sources */,
 				E53ED8792ADA6CCC0069B9D2 /* ThirdViewController.swift in Sources */,
+				E539E2272AECDBC900A14AB0 /* TableVC.swift in Sources */,
 				E53ED87B2ADA74FF0069B9D2 /* FourthViewController.swift in Sources */,
 				E53492DB2AD11F2C002A1C30 /* AppDelegate.swift in Sources */,
+				E539E2292AECDD0B00A14AB0 /* TableViewCell.swift in Sources */,
+				E539E22B2AECE35D00A14AB0 /* ItemListData.swift in Sources */,
+				E539E2312AECF2FC00A14AB0 /* ImageCollectionData.swift in Sources */,
 				E53492DD2AD11F2C002A1C30 /* SceneDelegate.swift in Sources */,
 				E5E8D8112AD135F700B27302 /* ResultViewController.swift in Sources */,
 			);
@@ -368,6 +419,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E539E21B2AECCFF900A14AB0 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+		E539E2202AECD03D00A14AB0 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E539E21C2AECCFF900A14AB0 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E539E21B2AECCFF900A14AB0 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		E539E21E2AECCFF900A14AB0 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E539E21B2AECCFF900A14AB0 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+		E539E2212AECD03D00A14AB0 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E539E2202AECD03D00A14AB0 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E53492CF2AD11F2C002A1C30 /* Project object */;
 }
